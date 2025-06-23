@@ -1,0 +1,27 @@
+{
+    "name": "data-structures-and-algorithms",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app/app.js",
+        "build": "node-ts index.ts",
+        "lint": "standard --fix",
+        "format": "prettier --write .",
+        "dev": "node-ts index.ts",
+        "dev:watch": "node-ts index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-prettier": "^5.5.0",
+        "node-ts": "^8.0.6",
+        "prettier": "^3.6.0",
+        "typescript": "^5.8.3"
+    }
+}
