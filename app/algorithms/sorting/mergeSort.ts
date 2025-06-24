@@ -1,3 +1,3 @@
-export default function MergeSort(arr) {
-    return arr;
+export default function MergeSort(arr: number[]): number[] {
+  return arr;
 }

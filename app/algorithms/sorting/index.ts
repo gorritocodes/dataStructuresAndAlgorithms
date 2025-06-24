@@ -1,15 +1,15 @@
-import { bubbleSort } from "./bubbleSort.js";
-import { selectionSort } from "./selectionSort.js";
-import { insertionSort } from "./insertionSort.js";
-import { mergeSort } from "./mergeSort.js";
-import { quickSort } from "./quickSort.js";
-import { heapSort } from "./heapSort.js";
+import bubbleSort from "./bubbleSort";
+import selectionSort from "./selectionSort";
+import insertionSort from "./insertionSort";
+import mergeSort from "./mergeSort";
+import quickSort from "./quickSort";
+import heapSort from "./heapSort";
 
 export {
-    bubbleSort,
-    selectionSort,
-    insertionSort,
-    mergeSort,
-    quickSort,
-    heapSort,
+  bubbleSort,
+  selectionSort,
+  insertionSort,
+  mergeSort,
+  quickSort,
+  heapSort,
 };
