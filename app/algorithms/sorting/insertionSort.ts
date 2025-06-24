@@ -1,3 +1,3 @@
-export default function insertionSort(arr) {
-    return arr;
+export default function insertionSort(arr: number[]): number[] {
+  return arr;
 } //InsertionSort

@@ -1,3 +1,3 @@
 import { test } from "@jest/globals";
 
-test.toDo("bubblesort");
+test.todo("InsertionSort");
